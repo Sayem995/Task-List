@@ -18,6 +18,12 @@ function addTask(e) {
     if(taskInput.value === '') {
         alert('Add a task');
     }
+    
+ 
+    const li = document.createElement('li');
+    
+    li.className = 'collection-item';
+
 
 
 
